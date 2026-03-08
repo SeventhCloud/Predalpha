@@ -1,0 +1,22 @@
+{
+  "name": "predalpha_bun",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun --watch index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@polymarket/clob-client": "^5.2.1",
+    "effect": "^3.19.14",
+    "elysia": "^1.4.22",
+    "ethers": "5",
+    "undici": "^7.18.2"
+  }
+}
